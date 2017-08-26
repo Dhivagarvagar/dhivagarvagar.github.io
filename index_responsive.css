@@ -45,9 +45,12 @@ p{
 }
 #header{
    
-    min-height: 60px;
-   
+    min-height: 50px;
+    border-bottom: 1px solid #000000; 
 }
+    footer{
+        border-top: 1px solid #000000;
+    }
 #profile img{
     width: 175px;
 }
@@ -67,5 +70,6 @@ p{
 
 table,tr,td{
     width: 100%;
+    border-width: 1px;
 }
 }
