@@ -70,6 +70,6 @@ p{
 
 table,tr,td,hr{
     width: 100%;
-    border-width: 2px;
+    border-width: 0px;
 }
 }
