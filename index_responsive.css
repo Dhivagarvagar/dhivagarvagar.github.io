@@ -68,7 +68,7 @@ p{
     font-size: 10px;
 }
 
-table,tr,td,hr{
+table,tr,td{
     width: 100%;
     border-width: 0px;
 }
