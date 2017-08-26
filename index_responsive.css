@@ -1,0 +1,71 @@
+
+@media (max-width: 768px) {
+    .windows8 {
+    position: relative;
+    width: 30px;
+    height:30px;
+    margin-left: 45%;
+    margin-top: 25%;
+}
+.windows8 .wBall {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    opacity: 0;
+    transform: rotate(225deg);
+        -o-transform: rotate(225deg);
+        -ms-transform: rotate(225deg);
+        -webkit-transform: rotate(225deg);
+        -moz-transform: rotate(225deg);
+    animation: orbit 6.96s infinite;
+        -o-animation: orbit 6.96s infinite;
+        -ms-animation: orbit 6.96s infinite;
+        -webkit-animation: orbit 6.96s infinite;
+        -moz-animation: orbit 6.96s infinite;
+}
+.windows8 .wBall .wInnerBall{
+    position: absolute;
+    width: 3px;
+    height: 3px;
+    background: rgb(255,255,255);
+    left:0px;
+    top:0px;
+    border-radius: 10px;
+}
+
+h1,h2,h3{
+    font-size: 18px;
+}
+#c h3,h4{
+    font-size: 14px;
+}
+
+p{
+    font-size: 12px;
+}
+#header{
+   
+    min-height: 60px;
+   
+}
+#profile img{
+    width: 175px;
+}
+
+
+#a{
+    font-size: 12px;
+    font-weight: bold;
+}
+#b,#c{
+    font-size: 8px;
+}
+#d{
+    text-align: center;
+    font-size: 10px;
+}
+
+table,tr,td{
+    width: 100%;
+}
+}
